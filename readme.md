@@ -1,5 +1,5 @@
 # ALL THEM NOTES 
-- archive of notes from my time at goofy ahh university
+- archive of notes from my time at goofy ahh UWT for Computer Science BS
 
 ***
 ## Table of Contents
