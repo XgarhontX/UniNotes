@@ -1,0 +1,212 @@
+{
+  "main": {
+    "id": "f79260cf81b96a84",
+    "type": "split",
+    "children": [
+      {
+        "id": "821c1118f6aa65e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3933e6af7fc9c5d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Machine Learning/Notes/XX. Pushback.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "76ca9a0ae7783e02",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "!assets/Pasted image 20230227142725.png"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0da0b8052db71034",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f8b46ff7ec8d28b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6e2d07dbff3a55b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e32b59da60ca8dda",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Version Space",
+                "matchingCase": true,
+                "explainSearch": true,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "05a6ede7e303623c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 211.5
+  },
+  "right": {
+    "id": "a693c8b3105c9012",
+    "type": "split",
+    "children": [
+      {
+        "id": "84d06a20a019920b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "039fe7b69b94735f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Machine Learning/Notes/XX. Pushback.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "545a82708f320c79",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Machine Learning/Notes/XX. Pushback.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2862088ac85a123a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "acfc1b93e8fb34cb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Machine Learning/Notes/XX. Pushback.md"
+              }
+            }
+          },
+          {
+            "id": "9c3c676d14fdd804",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 356.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "obsidian-file-cleaner:Clean files": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "3933e6af7fc9c5d0",
+  "lastOpenFiles": [
+    "!assets/Pasted image 20230317105140.png",
+    "!assets/Pasted image 20230317104457.png",
+    "!assets/Pasted image 20230317103935.png",
+    "!assets/Pasted image 20230317103813.png",
+    "!assets/Pasted image 20230317103739.png",
+    "Machine Learning/Notes/16. Lasso & Ridge Regression.md",
+    "Machine Learning/Notes/12. Multilayer Perceptrons and Logistic Regression.md",
+    "!assets/Pasted image 20230227142725.png",
+    "Machine Learning/Notes/11. Perceptrons and Gradient Descent.md",
+    "Machine Learning/Notes/13. Deep Learning.md",
+    "Machine Learning/Notes/14. Ensembles Methods.md",
+    "Machine Learning/Notes/06. ML in Python.md",
+    "Machine Learning/Notes/05. k-Nearest Neighbor.md",
+    "Machine Learning/Notes/07. Probability Theory for ML.md",
+    "Machine Learning/Notes/08. Naive Bayes Classification.md",
+    "Machine Learning/Notes/09. Bayesian Networks.md",
+    "Machine Learning/Notes/10. Privacy-Preserving ML.md",
+    "Machine Learning/Notes/15. Support Vector Machine.md",
+    "OS/Notes/12. Page Replacement.md",
+    "Machine Learning/Notes/XX. Pushback.md",
+    "OS/Notes/11. Paging.md",
+    "Machine Learning/Notes/04. Intro to Project.md",
+    "Machine Learning/Notes/02. Supervised Learning.md",
+    "Machine Learning/Notes/03. Decision Tree.md",
+    "!assets/Pasted image 20230307145423.png",
+    "OS/Notes/10. Memory Virtualization.md",
+    "OS/Notes/09. Concurrency Problems.md",
+    "OS/Notes/08. Condition Variables.md",
+    "OS/Notes/06. Locks.md",
+    "OS/Notes/05. Threads and Concurrency.md",
+    "OS/Notes/07. Lock-based Data Structures.md",
+    "OS/Notes/04. Scheduling.md",
+    "!assets/Pasted image 20230309162808.png",
+    "!assets/Pasted image 20230309162658.png",
+    "!assets/Pasted image 20230309161708.png",
+    "!assets/Pasted image 20230309163350.png"
+  ]
+}

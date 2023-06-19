@@ -1,0 +1,8 @@
+<u>Summary:</u> 
+Tivani writes that ethics is the study of morality. Firstly, he explains how morality comprises rules of conduction (i.e. do not steal (micro) and do not pirate software (macro)) which forms a moral system where everyone in it informally adhere to. He then went over religion, law, and ethics as justification of a moral system; of which, ethics has a lack of relativity unlike varying religions and laws differing geographically. There's also a section on four "discussion stoppers" that were rebutted for trying to make morality seem rude or too impossible by relativity to discuss and come to agreement on. With that, he explained Utilitarianism, Deontology, Rights, and Virtue ethics. Each has their critiques, leading Tivani to explain Moor's Just-Consequentialist Theory. A combination of consequence & duty-based ethics, he then lays out the two steps of Moor's theory that he'll be using to analyze cybertechnology in the next chapters.
+
+<u>Thoughts:</u> 
+One of the points in the first reading was to not rely on utilitarianism alone to determine an ethical act. Reading on how each ethical theory has their shortcoming, like Kant critiquing utilitarianism's minority sacrificing with his categorical imperative, then Ross's Act Deontology critique Kant's absolutism, etc., I wish Tivani showed a critique of Moor's Theory or at least an example of its use in this chapter. I remember hearing in class others saying the end section was a bad take. I don't know what to think of it yet, not knowing where he trying to go with it exactly.
+
+<u>Question:</u>
+Examples of Moor's Just-Consequentialist Theory that shows advantages and disadvantages?

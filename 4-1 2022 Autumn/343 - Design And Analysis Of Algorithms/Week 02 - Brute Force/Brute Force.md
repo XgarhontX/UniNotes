@@ -1,0 +1,73 @@
+# Brute Force Sorting
+- Straightforward approach
+- Usually directly based on the problem statement and the definitions of the concepts involved
+- Use the “force” of a computer (not of your brain)
+- examples:  
+	- computing $a^n$ (a > 0, n a non-negative integer)
+	- computing $n!$
+	- multiplying two matrices  
+	- sequential search for a key in a list
+## Strengths and Weaknesses
+- Brute force is an important design strategy:
+	- it is simple (programmer’s time versus computer’s time)
+	- it is widely applicable
+	- it yields reasonable algorithms for some important problems
+- However
+	- Brute force rarely yields the most efficient algorithms
+- Usually, you try brute force first, then optimize it later
+## Selection Sort
+- List example
+	- **6, 8, 15, 4, 29, 19, 45, 3**
+	- 3, **8, 15, 4, 29, 19, 45, 6**
+	- 3, 4, **15, 8, 29, 19, 45, 6**
+	- 3, 4, 6, **8, 29, 19, 45, 15**
+	- 3, 4, 6, 8, **29, 19, 45, 15**
+	- 3, 4, 6, 8, 15, **19, 45, 29**
+	- 3, 4, 6, 8, 15, 19, **45, 29**
+	-  3, 4, 6, 8, 15, 19, 29, 45
+- It is not stable, but it is in place. 
+	- The swap moves elements out of original order.
+- Alt version: Not in place by requiring an extra array, moving the 
+- Pseudocode
+	- ![[Pasted image 20221011142001.png|300]]
+	- 1st for loop goes to n-2 because it's useless to compare the last element
+	- Analysis
+		- Input size: $n$
+		- Basic operation: $\text{swap}$
+		- Amount of times basic operation runs based on n
+			- ![[Pasted image 20221011143111.png|350]]
+## Bubble Sort
+- Keep on swapping adjacent elements from beginning to end until you have a sorted list (a pass w/o any swap). It bubbles larger elements to the end.
+- Element comparison and swap efficiency is $C_{\text{worst}}=\Theta(n^2)$
+- Both In Place and Stable.
+	- Stable because adjacent equal elements don't swap with each other.
+- Not really useful in the field anymore.
+# Exhaustive Search
+- Brute force searching techniques to find the 
+	- generate all possible candidate solutions
+	- then investigate them one by one
+- Usually inefficient & can easily get unreasonable with growth of input size.
+- A last resort option, which does happen to get used. (e.g. knapsack & traveling salesman problem)
+## Knapsack Problem
+- Given $n$ items
+	- weights: $w_1, w_2, ... w_n$
+	- values: $v_1, v_2, ... v_n$
+	- a knapsack of capacity $W$
+- Find most valuable subset of the items that fit into the knapsack (optimized thief be like)
+- Ex: $W=10$
+	- The four items:
+		- ![[Pasted image 20221011145035.png|125]]
+	- Exhaust all possibility ($2^n$ possibility so, $O(2^n)$)
+		- ![[Pasted image 20221011145229.png|220]]
+	- So, best is items 3 & 4.
+- Extra: A greedy algorithm would find weight/value ratio, prioritizing the best to pick up first. It won't be 100% right.
+## Traveling Salesman Problem
+- Given $n$ cities with known distances between each pair, find the shortest tour that passes through all the cities exactly once before returning to the starting city.
+	- Alternatively: find the shortest *Hamiltonian circuit* (same start & end vertex w/ all ) in a weighted connected graph
+- $O((n-1)!)$
+- Irl Ex: Starting in Seattle, find the shortest route to visit all other cities exactly once and then return to Seattle.
+- Ex: 
+	- ![[Pasted image 20221011145816.png|120]]
+	- ![[Pasted image 20221011150040.png|300]]
+		- 2 optimal solutions, reverse of each other.
+		- There are pairs of lengths, you actually only have to consider $(n-1)/2$ possibilities

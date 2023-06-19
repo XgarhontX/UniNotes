@@ -1,0 +1,65 @@
+# Divide-and-Conquer
+- a well known design strategy
+- general plan:
+	- divide an instance of a problem into smaller instances
+	- solve smaller instances recursively
+	- combine the solutions to get a solution for the larger instance
+- ideally suited for parallel computations
+- successfully used on single-processor machines too:
+	- important and efficient algorithms
+	- e.g. mergesort and quicksort
+	- typical case: divide problem into two subproblems
+- ![[Pasted image 20221020150741.png|300]]
+## Mergesort
+- merge operation
+	- given two sorted arrays, merge produces a sorted array with all the elements of the two arrays
+		- ![[Pasted image 20221020151013.png|250]]
+	- how many key comparisons?
+		- Best case
+			- A=\[1 2 3 4] & B = \[5 6 7 8]
+				- Because when A runs out, we can just copy B only
+				- $n/2$ comparisons
+			- $C(n) = 2C(\frac{n}{2})+ n/2,C(0)=0$ (merges original list to do sort twice + another n/2 to merge back)
+				- a=2, b=2, d=1
+				- $\in \Theta(nlogn)$
+				- #TODO solve recurrence
+		- Worst case
+			- A=\[1 3 5 7] & B = \[2 4 6 8]
+				- $n-1$ comparisons
+			- $C(n) = 2C(\frac{n}{2})+n-1, C(0)=0$
+				- a=2, b=2, d=1
+				- $\in \Theta(nlogn)$
+				- #TODO solve recurrence
+- Stable but Not In-Place
+### Pseudocode
+- ![[Pasted image 20221116202738.png|250]]![[Pasted image 20221116202725.png|250]]
+## Quicksort
+- quicksort algorithm:
+	- select a pivot
+	- partition the list such that 
+		- the elements in the first subarray are $\leq$ the pivot
+		- the elements in the second subarray are $\geq$ the pivot
+	- exchange the pivot with the last element of the first subarray
+	- recursively apply quicksort to sort the subarrays
+		- Extra: When the list gets small ($\approx$ 10), you can use insertion sort for avoid quicksort's worst case
+- (aka) Hoare's partition recursively all the subarray everything
+### Psuedocode
+- ![[Pasted image 20221025144035.png|300]]![[Pasted image 20221025143932.png|275]]
+#### Analysis
+- Best Case: when the pivot becomes the median, splitting the array in half.
+	- $C(n)=2C(\frac{n}{2})+n+1, n>1, C(1)=0$
+		- #TODO Scratch math solve recurrence
+	- $\in \Theta(nlogn)$
+- Worst Case: exactly like quickselect
+	- $\Theta(n^2)$
+- Average Case:
+	- Best vs Worst case depends on where the pivot lands.
+		- So there are n places it can land.
+			- If you land in the $s^\text{th}$ index: $C(s)+C(n-1-s)+(n+1)$ (aka left partition sort + right partition sort + extra swap of current)
+			- Take the average: $\frac{1}{n}\sum_{s=0}^{n-1}(C(s)+C(n-1-s)+(n+1)), n>1$
+	- *Check quicksort.pdf for full walkthrough on how to solve the aids recurrence equation* $\approx 1.38nlog_2n$
+	- $\in \Theta(nlogn)$
+- 20%-25% improvement can be achieved by:
+	- better pivot selection: median of three (find median from first, middle, & last elems & that is pivot)
+	- switch to insertion sort for small input sizes
+	- eliminate recursion

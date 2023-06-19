@@ -1,0 +1,149 @@
+{
+  "main": {
+    "id": "f79260cf81b96a84",
+    "type": "split",
+    "children": [
+      {
+        "id": "07f361e70d1cfdd6",
+        "type": "leaf",
+        "state": {
+          "type": "excalidraw",
+          "state": {
+            "file": "!Markdown Ultimate/Drawing 2022-09-27 18.02.06.excalidraw.md"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0da0b8052db71034",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f8b46ff7ec8d28b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6e2d07dbff3a55b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e32b59da60ca8dda",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Tags",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "05a6ede7e303623c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 195.01364135742188
+  },
+  "right": {
+    "id": "a693c8b3105c9012",
+    "type": "split",
+    "children": [
+      {
+        "id": "84d06a20a019920b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "039fe7b69b94735f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "!Markdown Ultimate/Drawing 2022-09-27 18.02.06.excalidraw.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "545a82708f320c79",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "!Markdown Ultimate/Drawing 2022-09-27 18.02.06.excalidraw.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2862088ac85a123a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "acfc1b93e8fb34cb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "!Markdown Ultimate/Drawing 2022-09-27 18.02.06.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "9c3c676d14fdd804",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "a6e2d07dbff3a55b",
+  "lastOpenFiles": [
+    "!Markdown Ultimate/Markdown.md",
+    "!Markdown Ultimate/Drawing 2022-09-27 18.02.06.excalidraw.md",
+    "!Attachments/aimlab.png",
+    "Links/Links URL.md",
+    "!Markdown Ultimate/www.google.com.md",
+    "Links/Linking 1.md",
+    "Links/Linking 2.md",
+    "Links/Links.md",
+    "!Markdown Ultimate/Links/Links.md",
+    "!Markdown Ultimate/Links.md"
+  ]
+}

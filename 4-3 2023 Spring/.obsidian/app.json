@@ -1,0 +1,39 @@
+{
+  "promptDelete": false,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "tabSize": 3,
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "!assets",
+  "readableLineLength": false,
+  "strictLineBreaks": false,
+  "showFrontmatter": false,
+  "autoPairBrackets": true,
+  "lineWrap": true,
+  "showIndentGuide": true,
+  "foldIndent": true,
+  "foldHeading": true,
+  "defaultViewMode": "source",
+  "spellcheckDictionary": [
+    "Kantianism",
+    "efﬁciencies",
+    "Efﬁciency",
+    "efﬁciencies",
+    "efﬁcient",
+    "Hyperthreading",
+    "ints",
+    "x:",
+    "iff",
+    "Haidt"
+  ],
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  }
+}

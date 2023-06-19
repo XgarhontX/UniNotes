@@ -1,0 +1,1 @@
+[TCSS 371 Notes - Google Docs](https://docs.google.com/document/d/1kuSS22HTwyoRXqZBVB8IQrp2ghxtDch1-NUehK6sJGw/edit)

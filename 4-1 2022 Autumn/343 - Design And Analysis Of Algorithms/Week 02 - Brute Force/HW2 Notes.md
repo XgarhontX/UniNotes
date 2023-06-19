@@ -1,0 +1,13 @@
+# K-way Merge Sort
+- Instead of breaking it in half, you break it into k piece.
+- Not in place algorithm, that's its strength
+- Empirical Analysis tests different values of k specified
+- Only thing missing is the merge back.
+	- Ex: k=3
+		- data[] = \[2,6,7,9|5,8,9,12|4,7,12,15,25\] (broken into 3 already, need to merge back) (0|1|2)
+		- copy to subarrays = \[2,6,7,9\] \[5,8,9,12\] \[4,7,12,15,25\] (you can use 1 array, but then you have to keep track of sizes, or change it to null or crap)
+		- min heap (contains only k elems): (value, subarray)
+			- (2,0)
+			- (5,1)
+			- (4,2)
+		- Now start override data[] by taking out min of heap, and retrieving the next elem from the subarray you just used to override.

@@ -1,0 +1,154 @@
+{
+  "main": {
+    "id": "f79260cf81b96a84",
+    "type": "split",
+    "children": [
+      {
+        "id": "c636f0499a3432de",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "343 - Design And Analysis Of Algorithms/Week 2 - Brute Force and Decrease-and-Conquer/HW2 Notes.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0da0b8052db71034",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f8b46ff7ec8d28b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a6e2d07dbff3a55b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e32b59da60ca8dda",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "05a6ede7e303623c",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 149.01364135742188
+  },
+  "right": {
+    "id": "a693c8b3105c9012",
+    "type": "split",
+    "children": [
+      {
+        "id": "84d06a20a019920b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "039fe7b69b94735f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "343 - Design And Analysis Of Algorithms/Week 2 - Brute Force and Decrease-and-Conquer/HW2 Notes.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "545a82708f320c79",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "343 - Design And Analysis Of Algorithms/Week 2 - Brute Force and Decrease-and-Conquer/HW2 Notes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2862088ac85a123a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "acfc1b93e8fb34cb",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "343 - Design And Analysis Of Algorithms/Week 2 - Brute Force and Decrease-and-Conquer/HW2 Notes.md"
+              }
+            }
+          },
+          {
+            "id": "9c3c676d14fdd804",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "c636f0499a3432de",
+  "lastOpenFiles": [
+    "343 - Design And Analysis Of Algorithms/Week 01 - Algorithm Analysis/Class.md",
+    "343 - Design And Analysis Of Algorithms/Past Math.md",
+    "372 - Computer Architecture/Week 02 - Arithmetic & Control/Class.md",
+    "372 - Computer Architecture/Week 01 - Machine-Level Representation of Programs/Class.md",
+    "372 - Computer Architecture/Week 01 - Machine-Level Representation of Programs/Book Chapter 3.md",
+    "343 - Design And Analysis Of Algorithms/Week 2 - Brute Force and Decrease-and-Conquer/Class.md",
+    "343 - Design And Analysis Of Algorithms/Week 01 - Algorithm Analysis/Book Chapter 2 - Fundamentals.md",
+    "343 - Design And Analysis Of Algorithms/Week 00 - Introduction/Class.md",
+    "343 - Design And Analysis Of Algorithms/Week 2 - Brute Force and Decrease-and-Conquer/HW2 Notes.md",
+    "325 - Computers, Ethics, And Society/01. Reading Journal/03. Moor & Gert/Reading.md"
+  ]
+}

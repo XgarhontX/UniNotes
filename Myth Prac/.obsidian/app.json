@@ -1,0 +1,20 @@
+{
+  "promptDelete": false,
+  "showLineNumber": true,
+  "spellcheck": true,
+  "tabSize": 3,
+  "trashOption": "system",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "current",
+  "useMarkdownLinks": false,
+  "attachmentFolderPath": "!Attachments",
+  "readableLineLength": false,
+  "strictLineBreaks": false,
+  "showFrontmatter": false,
+  "autoPairBrackets": true,
+  "lineWrap": true,
+  "showIndentGuide": true,
+  "foldIndent": true,
+  "foldHeading": true,
+  "defaultViewMode": "source"
+}

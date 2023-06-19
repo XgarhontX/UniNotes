@@ -1,0 +1,4 @@
+- Morality:
+	- Micro: Do not steal
+	- Macro: Unlawful to pirate software
+- 
